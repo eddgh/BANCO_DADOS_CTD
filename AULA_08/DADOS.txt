@@ -1,0 +1,73 @@
+associados, 5 registros
+
+CREATE TABLE ASSOCIADOS(
+RG CHAR(7),
+NOME VARCHAR(50),
+SOBRENOME VARCHAR(50),
+ENDERECO VARCHAR(150),
+CIDADE VARCHAR(50),
+ESTADO VARCHAR(2)
+);
+
+INSERT INTO ASSOCIADOS
+(
+RG,
+NOME,
+SOBRENOME,
+ENDERECO,
+CIDADE,
+ESTADO
+)
+
+VALUES(
+'103309',
+'EDMUNDO',
+'JOSE BATISTA',
+'RUA OLGA FRANCO,
+LT 56 QD B',
+'SAO GONCALO',
+'RJ'),
+
+('125639',
+'CARLOS',
+'AUGUSTO SILVA',
+'RUA DAS PALMAS, 45',
+'PINDAMOINHANGABA',
+'SP'),
+
+('128869',
+'MARIO',
+'PIRES DA SILVA',
+'RUA PIRAI, 90',
+'RECIFE',
+'PE'),
+
+('258745',
+'MARIA',
+'DAS GRACAS',
+'RUA DAS FLORES, 91',
+'PALMAS',
+'TO'),
+
+('123658',
+'ANTONIO',
+'DA SILVA',
+'RUA REZENDE, 120',
+'PIRACICABA',
+'SP');
+
+
+telefones, 8 reg
+
+autores, 1 reg
+
+editoras, 3 reg
+
+livros, 5 reg
+
+exemplares, 5 reg
+
+emprestimo_exemplares, 3 reg
+
+emprestimos, 3 reg
+
